@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+<script>
+ 
+    // let b = 'Some string';
+    // let a = 10;
+    // let c = true;
+    // document.write('hello');
+    // document.write ('<br/>');
+    // document.writeln (a);
+    // document.writeln (b);
+    // document.writeln (c);
+    // document.writeln ('<hr />');
+
+    // let a = prompt( ' Введите какое либо значение', 'suda')
+    // alert(a);
+    // let conf = confirm ( ' Are u sure?');
+    // document.write(conf);
+    // let x = prompt( 'Input x value', '0');
+    // let y = prompt( 'input y value' , '0')
+    // let result = x + y;
+    // document.write( result + '<hr/>)');
+
+    // let intergerX = parseInt(x);
+    // let intergerY = parseInt(y);
+    // result= intergerX+ intergerY
+    // document.write (result);
+
+    // let a = 9;
+    // let b= 5;
+    // let result;
+    // result = a + b;
+    //  document.write( 'a + b = ' + result + '<br/>');
+    // result = a - b;
+    //  document.write( 'a - b = ' + result + '<br/>');
+    // result = a * b;
+    //  document.write( 'a * b = ' + result + '<br/>');
+    // result = a / b;
+    //  document.write( 'a / b = ' + result + '<br/>');
+    // let a = prompt( 'Insert a' , '9');
+    // let b = prompt( 'insert b' , '5');
+    // let result;
+    // result = a % b;
+    // document.write( 'a % b = ' + result + '<br/>');
+
+    // let a = -8;
+    // let string = '10';
+    // let result = -a;
+    // document.writeln( ' -a = ' + result + '<br/');
+    // let result1 = +a;
+    // document.writeln( ' +a = ' + result1 + '<br/');
+    // let result2 = +string + a; 
+    // document.writeln( ' +string +a = ' + result2 + '<br/');
+
+    // Конвертация с помощью плюса в последнем примере
+
+    // let a = 9;
+    // a +=3 ; //a= a + 3
+    // document
+
+    // let a = true;
+    // let b = false;
+    // let res = a && b;
+    // document.write ( 'a && b = ' + res + '<br/>');
+
+    // let x = 6;
+    // let y = 15;
+    // let z = 4;
+    // let result = (x += y - x++ * z);
+    // document.write('x += y - x++ * z =' + result + '<br/>') -7
+
+    // let result= (z= --x - y * 5);
+    // document.write ( 'z= --x - y * 5 = ' + result + '<br/>') - 70
+
+    // let result= ( y/=x + 5 % z);
+    // document.write ( 'y/=x + 5 % z =' + result)
+
+    // let x = 2;
+    // let y = 3;
+    // let z = 4;
+    // let avg = (( x+ y + z)/2);
+    // document.write(' (x+ y + z)/2 = ' + avg)
+
+    // let a = promt ( 'Введите слово Hello, или World' , 'Hello');
+    // if ( a == 'Hello' || a == 'hello') {
+    //     document.write(' Введённое значение верно и равно Hello' );
+    // }
+    // else if ( a == 'World' || a == 'world') {
+    //     document.write( 'Введённое значение верно и равно World')
+    // }
+
+    // else { 
+    //     document.write( 'Введённое значение НЕ верно');
+    // }
+
+    // let a = confirm(' <p>Принять первое значение как истину?');
+    //     if (a) {
+    //         document.write(' <p>Первое значение ИСТИНА');
+    //         }
+    //     else {
+    //         document.write(' <p>Первое значение ЛОЖЬ');
+    //     }
+
+    // let b = confirm( '<p>Принять второе значение как истину?');
+    //     if (b) {
+    //         document.write(' <p>Второе значение ИСТИНА');
+    //     }
+    //     else {
+    //         document.write(' <p>Второе значение ЛОЖЬ');
+    //     }
+
+    //     if (a == true && b == true) {
+    //         document.write(' <p>Оба значение ИСТИННА');
+    //     }
+    //     else if (a == true || b == true) {
+    //         document.write ('<p>Одно из значений ИСТИНА, а другое ЛОЖЬ');
+    //     }
+    //     else {
+    //         document.write ('<p>оба значения ЛОЖЬ')
+    //     }
+
+    // let age = prompt('Enter ur age');
+    // let pen = prompt('Enter pension age');
+
+    // let maxAge = 120;
+
+    // let a = parseInt(age);
+    // let b = parseInt( pen);
+
+    // if (a <b) {
+    //     document.write( 'It`s to early for pension!');
+    // }
+
+    // else if ( a < maxAge) {
+    //     document.write('It`s alreay time to think about pension account in the bank...');
+    // }
+
+    // else {
+    //     document.write('people don`t live that long')
+    // }
+
+    // let number = prompt('Enter number 1 or 2'); 
+
+    // switch (number) {
+    //     case '1' : 
+    //     {
+    //         document.write('one');
+    //         break;
+    //     }
+    //     case '2' : 
+    //     {
+    //         document.write ( 'two');
+    //         break
+    //     }
+
+    //     default:
+    //         {
+    //             document.write('U entered different value from 1 and 2');
+    //         }
+
+    // let day = prompt( 'Enter number of the day of the week: 1-2-3-4-5-6-7');
+    // switch (day) {
+    //     case '1' : 
+    //     {
+    //         document.write('Monday');
+    //         break;
+    //     }
+    //     case '2' : {
+    //         document.write('Thuesday');
+    //         break;
+    //     }
+    //     case '3' : {
+    //         document.write('Wednesday');
+    //         break;
+    //     }
+    //     case '4' : {
+    //         document.write('Thursday');
+    //         break;
+    //     }
+    //     case '5' : {
+    //         document.write('Friday');
+    //         break;
+    //     }
+    //     case '6' : {
+    //         document.write('Saturday');
+    //         break;
+    //     }
+    //     case '7' : {
+    //         document.write('Sunday');
+    //         break;
+    //     }
+    //     default : 
+    //     {
+    //         document.write( ' U have been entred non-existent day of the week');
+    //     }
+    // }
+
+    // let day= prompt( 'Enter number of the day of the week: 1-2-3-4-5-6-7');
+    // switch (day) {
+    //     case '1':
+    //     case '2':
+    //     case '3':
+    //     case '4':
+    //     case '5':
+    //         document.write('This day is a work day');
+    //         break;
+    //         case '6':
+    //         case '7':
+    //     {
+    //         document.write('This day is a weekend');
+    //     }
+    //     break;
+    //      default:
+    //     {
+    //         document.write('U have entered non-existant day of the week');
+    //     }
+    //     break;
+    // }
+
+    // let coffeeSize = prompt( 'Cup size : 1 = Small, 2 = Middle, 3 = Big. Please enter')
+
+    // let cost = 0;
+    // switch( coffeeSize) {
+    //     case  '1':
+    //         {
+    //             cost += 25;
+    //             document.write('picture small');
+    //         }
+    //         break;
+    //         case '2' :
+    //             {
+    //                 cost += 50;
+    //                 document.write(' picture medium');
+    //             }
+    //             break;
+    //         case '3':
+    //             {
+    //                 cost += 75;
+    //                 document.write(' picture big')
+    //             }    
+                
+                
+    //              break;
+    //             default: 
+    //             {
+    //                 document.write('wrong choise');
+    //             }
+    //             break;
+    //         }
+
+    //         if (cost != 0) {
+    //             document.write ( "inseret" + cost + 'копеек. thanks!');
+
+    //         }
+
+    // let a = 10, b = 2, max = 0;
+
+    // max = ( a > b) ? a : b; {
+
+    
+    // document.write(max)
+    // }
+    // Если: а больше б, то вернуть, а , а иначе вернуть б
+
+// let a = 1, b = 2,  c = -5, max = 0;
+// max = a > b ? c = a : c = b;
+// {
+// document.write (max)
+// }
+
+//  
+
+// let counter = 0;
+
+// while( counter < 10 ) {
+//     counter++;
+//     document.write ( counter + '<br/>');
+// };
+
+// let counter = 0;
+
+// while ( counter < 3) {
+//     counter++;
+//     document.write( "<p>Counter " + counter);
+//         break;
+//     }
+// {
+//     document.write("<p>Произведено " + counter + ' Итераций.');
+// }
+
+// let counter = 0; 
+ 
+//  while ( counter < 3) {
+//      counter++;
+//      document.write( "<p>Counter " + counter);
+
+//         continue;
+// // должны перепрыгнуть на условие
+//         document.write('Эта строка не выполнится. ');
+//  }
+//  document.write( '<p>Произведено ' + counter + ' итерацийю. ');
+
+// let str = 'Угадайте задуманный цвет из пяти попыток.';
+
+// let maxAttempt = 5;
+// let attempt = 0;
+// let color= 'red';
+
+// while ( attempt <  maxAttempt) {
+//     attempt++;
+
+//     value = prompt( str + 'Попытка  ' + attempt, "" );
+
+//     if ( value == null) {
+//         break;
+//     }
+//     if ( value != color ) {
+//         str = 'Вы не угладали. ';
+//         continue;
+
+//     }
+
+//     document.write( "<p>Поздравляем, Вы угадали с " + attempt + ' Попытки!');
+//         break;
+    
+// }
+//     document.write("<p>Конец игры!")
+
+// let counter = 0;
+
+// do {
+//     document.write(counter + '<br/>');
+//     counter++;
+// } while (counter < 10);
+
+// let input;
+// do {
+//     input = prompt('введите  некоторое значение.');
+//     document.write( "<p>" + input);
+// } while (input != null);
+
+// let counter = prompt ( 'Введите число');
+// let factorial = 1;
+// document.write('Факториал числа : ' + counter + '!= ');
+
+// do {
+//     if (counter == 0){
+//         factorial = 1;
+//         break;
+//     }
+//     factorial = factorial * counter;
+//     counter = counter - 1;
+// }
+// while (counter > 0); {
+//     document.write(factorial);
+// }
+
+// for ( let counter = 0; counter < 3; counter++) {
+//     document.write('<p>Counter = ' + counter);
+// }
+// document.write('<p>' + counter);
+
+// for ( let i = 0; i < 10; i++) {
+//     for ( let j = 0; j < 10; j++) {
+//         document.write("<img src= 'tile.jpg' width= '50' height= '50'/>")
+//     }
+//     document.write ('<br/>');
+// }
+
+// let a;
+
+// for ( ; ;) {
+//     a = prompt( 'Введите напрвление l/r');
+//         switch (a) {
+//             case 'l':
+//                 {
+//                     document.write('Пойти на лево' + '<br/>');
+//                     continue;
+//                 }
+//             case 'r':
+//                 {
+//                     document.write('Пойти на право' + '<br/>');
+//                     continue;
+//                 }     
+//         }
+//         break;
+//     }
+
+// let a = [1, 2, 3, 4, 6];
+
+// document.write(a);
+
+
+// let b = ['September', 'October', 'November', 'December', 'January', 'February','March', 'April', 'May', 'June', 'July', 'August'];
+// document.write('<hr/>');
+// document.write(b);
+
+// let c = [ , , ,];
+// document.write('<hr/>');
+
+// document.write(c);
+
+// let d = ['Hello' , 34, true];
+
+// document.write('<hr/>');
+
+// document.write(d);
+
+// let a = Array();
+// let b = Array(1, 2, 3, 4, 5, 6);
+
+// document.write(b);
+
+// document.write('<hr/>');
+
+// let c = Array(10);
+
+// document.write(c);
+
+// Не рекомендуется использовать ЭРРЕЙ\
+
+// let arr = Array(5);
+
+// arr[0] = 2;
+// arr[1] = 5;
+// arr[2] = 12;
+// arr[3] = 8;
+// arr[4] = 23;
+
+// document.write('Содержимое массива ' + arr);
+
+// arr[4] = 'Четрыре';
+// arr[10] = 'Десять';
+
+// document.write('<hr/>');
+
+// document.write(arr);
+
+// let array = ['h', 'e', 'l', 'l', 'o'];
+
+// document.write('Длинна массива [' + array + '] равна =' + array.length);
+
+// let array = ['h', 'e', 'l' , 'l', 'o'];
+
+// array.length = 7;
+
+// for ( let i = 0; i < array.length; i++) {
+//     document.write(array[i] + '<br/>');
+// }
+
+// document.write('<hr/>');
+
+// array.length = 2;
+
+// for ( let i = 0; i < array.length; i++) {
+//     document.write(array[i] + '<br/>');
+// }
+
+// let arr = [111, 222, 333];
+// document.write('Длинна массива ' + arr.length + '<br/>');
+
+// arr[10] = 777;
+// document.write('Новая длинна массива' + arr.length + '<brs/><hr/>');
+
+// for (let i = 0; i < arr.length; i++) {
+//     document.write(arr[i] + '<br/>');
+// }
+
+// let laptop = { cpu: 'Core i7', ram: '4 GB', screen: '15'}
+
+// let key = prompt('Введите интересующий параметр ( ram, cpu, screen)', '');
+
+// let value = laptop[key];
+// document.write(value + '<hr/>');
+
+// document.write('<p>' + laptop.cpu);
+// document.write('<p>' + laptop['cpu']);
+// let table = new Array(10);
+// for ( let i = 0; i < table.length; i++) {
+//     table[i] = new Array(10);
+// }
+
+// for ( let row = 0; row < table.length; row++) {
+//     for ( let col = 0; col < table[row].length; col++) {
+//         if ((row + col) % 2 == 1)
+//             table[row][col] = "<img src= 'images/parket.jpg' width= '50' height= '50'/>";
+            
+//         else 
+//             table[row][col] = "<img src= 'images/parket2.jpg' width='50' height='50'/>";
+        
+//     }
+// }
+
+// table[8][1]= "<img src= 'images/parket3.jpg' width= '50' height='50'/>";
+
+// for ( let row = 0; row < table.length; row++) {
+//     for ( let col = 0; col < table[row].length; col++){
+//         document.write(table[row][col]);
+
+//     }
+//     document.write('<br/>');
+// }
+
+// let square = table[8][1];
+// document.write('<hr/>' + square);
+
+// let arr = ['September', 'October', 'November', 'December', 'January', 'February','March', 'April', 'May', 'June', 'July', 'August'];
+// document.write('<ul> <li>');
+
+//     let rez = arr.join('</li><li>');
+//         document.write(rez);
+//         document.write('</li></ul>');
+
+        // <ul> <li> September </li>
+
+            // let a = [1, 2, 3];
+            // a = a.concat(4,5);
+            // document.write('<p>' + a);
+                
+                
+            // a = a.concat(6, 7, [8,9]);
+            // document.write('<p>' + a);
+
+// let a = [1, 2, 3];
+
+// let input = prompt('Введите новый элемент массива:', '');
+
+// while ( input != null) {
+//     a = a.concat(input);
+//     input = prompt( 'Введите новый элемент массива:' , '');
+// }
+
+// document.write(a.join( '<br/>'));
+
+// let a = new Array(1, 2, 4, 5, 6, 7);
+// a.reverse();
+// document.write(a.join('<br/>'));
+
+// let a = [1, 2, 3, 4, 5, 6, 7];
+
+// let temp = a.slice(0, 3);
+// document.write('<p>' + temp);
+
+//     temp = a.slice (3);
+//     document.write ( '<p>' + temp);
+
+// temp = a.slice(1, -1);
+// document.write( '<p>' + temp);
+
+    // let arr = ['September', 'October', 'November', 'December', 'January', 'February','March', 'April', 'May', 'June', 'July', 'August'];
+
+    // document.write('<p>' + arr.join(','));
+    //     let from = 5;
+    //     let to = 8;
+
+    //     let res = arr.slice(from, to);
+    //     document.write('<p>' + res.join(',')); 
+
+    // let a = [1, 2, 3, 4, 5, 6, 7]; 
+    // document.write('<p>Иссходный массив: ' + a);
+
+    // let d = a.splice(1, 3);
+    // document.write('<p>Удалены: ' + d);
+    // document.write( '<p> Остались: ' + a);
+
+    // a.splice(1, 0 ,2, 3, 4);
+    // document.write('<p>После вставки: ' + a);
+
+        // let Students = ['Алексией', 'Владимир', 'Александр', 'Владислав', 'Елена', 'Руслан', 'Анна', 'Киррил', 'Олег'];
+
+        // let from = prompt( 'Введите индекс человека с которого начать Выборку');
+        // let count = prompt('Введите количество человек');
+
+        // let res = Students.splice(from, count);
+
+        // document.write(res.join('<p>'));
+
+            // let a = [1, 4, 11, 2, 9 , 99 ,5];
+
+            // a.sort();
+            // document.write(a.join('<p>'));
+
+            // document.write('<hr/>');
+
+            // let  s = ['January', 'February', 'March' , 'April', 'May'];
+
+            // s.sort();
+            // document.write(s.join('<p>'));
+
+        // let stack = ['January ', 'February ', 'March '];
+        // document.write('<p>Исходный: ' + stack.join(''));
+        // document.write('<p>Размер массива: ' + stack.length);
+
+        // document.write('<hr/>');
+
+        // let length = stack.push('April ');
+        // document.write('<p>После добавления: ' + stack.join(''));
+        // document.write('<p>Размер массива: ' + length);
+
+        // document.write('<hr/>');
+
+        // length = stack.push('May ', 'June ');
+        // document.write('<p>После добавления: ' + stack.join(''));
+        // document.write('<p>Размер массива: ' + length); 
+
+        // let stack = ['January ', 'February ', 'March ' , 'April ', 'May ' ,'June '];
+        // document.write('<p>Исходный: ' + stack.join(''));
+        // document.write('<p>Размер массива: ' + stack.length);
+
+        // document.write('<hr/>');
+
+        // let length = stack.pop();
+        // document.write('<p>После pop: ' + stack.join(''));
+        // document.write('<p>Удалённый элемент: ' + length);
+        // document.write('<p>Размер массива после удаления: ' + stack.length);
+
+        // let arr = [1, 2, 3];
+
+        // document.write('<p>Исходный массив: ' + arr.join(' '));
+        // document.write('<hr/>');
+
+        // let value = arr.shift();
+
+        // document.write('<p>Массив после сдвига: ' + arr.join(' '));
+        // document.write('<p>Выдвинутое значение: ' + value);
+
+        // let arr = [1, 2, 3];
+        // document.write('<p>Исходный массив: ' + arr.join(' '));
+
+        // document.write('<hr/>');
+
+        // arr.unshift(0);
+        // document.write('<p>Массив после сдвига: ' + arr.join(' '));
+
+        // document.write('<hr/>');
+
+        // arr.unshift(-3, -2, -1);
+        // document.write('<p>Массив после сдвига: ' + arr.join(' '));
+
+            // function MyFirstFunction() {
+            //     document.write("<p>Hello from MyFirstFunction!");
+            //     document.write("<p>How are u?");
+            //     document.write("<p>Goodbye!");
+            // }
+
+            // function MySecondFunction() {
+            //     document.write('<p>Hello from MySecondFunction!');
+            // }
+            //     // Вызыов функции
+            // MyFirstFunction();
+
+            // document.write('<hr/>');
+
+            // MySecondFunction();
+
+            // let name;
+            // let sname;
+            // let age;
+
+            // function ask() {
+            //     name = prompt('Введите своё имя:');
+            //     sname = prompt('Введите свою фамилию:');
+            //     age = prompt('Введите свой возраст:');
+            // }
+
+            // function say() {
+            //     document.write('Имя: ' + name + '<br/>');
+            //     document.write('Фамилия: ' + sname + '<br/>');
+            //     document.write('Возраст: ' + age + '<br/>');
+            //     document.write('<hr/') 
+            // }
+
+            // ask()
+            // say()
+
+        //     let name;
+        //     let sname;
+        //     let age;
+
+        //     function ask() {
+        //         name = prompt('Введите своё имя:');
+        //         sname = prompt('Введите свою фамилию:');
+        //         age = prompt('Введите свой возраст:');
+        //     }
+
+        //     function say() {
+        //         document.write('Имя: ' + name + '<br/>');
+        //         document.write('Фамилия: ' + sname + '<br/>');
+        //         document.write('Возраст: ' + age + '<br/>');
+        //         document.write('<hr/') 
+        //     }
+            
+        //    do {
+        //        ask();
+        //        say();
+        //        repeater = confirm('Пройти задание ещё раз?');
+        //    } while(repeater)
+
+        // let a = 10;
+        // let b = 15;
+        // let c = 20;
+        // let d = 21;
+
+        // function Sum1() {
+        //     let result = a + b;
+        //     document.write('<p>Sum1 result: ' + result);
+        // }
+
+        // function Sum2 (x1, x2) {
+        //     let result = x1 + x2;
+        //     document.write('<p>Sum2 result: ' + result);
+        // }
+
+        // Sum1(); 
+
+        // Sum2();// Не корректно
+
+        // Sum2(c, d);
+
+        // function print(msg, count) {
+        //     if (count == undefined) {
+        //         count = 3
+        //     }
+        //     for( let i = 0; i < count; i++) {
+        //         document.write('<p>' + msg);
+        //     }
+        //     document.write('<hr/>');
+        // }
+
+        // print('hello');
+        // print('world', 7);
+
+            // function Sum(a, b) {
+            //     return a + b;
+            // }
+
+            // let res = Sum(2, 3);
+            // document.write(res);
+
+            // function add(a, b) {
+            //     return a + b;
+            // }
+
+            // function sub(a, b) {
+            //     return a - b;
+            // }
+
+            // function mul(a, b) {
+            //     return a * b 
+            // }
+
+            // function div(a, b) {
+            //     return a / b;
+            // }
+
+            // let opertand1 = prompt('Введите первое число: ');
+            // let sign = prompt('Введите знак арифметической операции: + - * /');
+            // let opertand2 = prompt('Введите второе число: ');
+            // let result = undefined;
+
+            // operand1 = parseInt(opertand1);
+            // operand2 =  parseInt(opertand2);
+
+            // switch (sign) {
+            //     case '+' : 
+            //     result = add(operand1,operand2);
+            //         break;
+            //     case '-' : 
+            //     result = sub(operand1,operand2);
+            //         break;
+            //     case '*' : 
+            //     result = mul(operand1,operand2);
+            //         break;
+            //     case '/' : 
+            //     result = div(operand1,operand2);
+            //         break;
+            //     default :
+            //     document.write("<p><b style='color:red'>" + sign + "</b> - не является арифметической операцией"); 
+            // }
+
+            // if ( result != undefined)
+            // document.write('<p>' + operand1 + " " + sign + " " + operand2 + " = " + result);
+
+                // function max(a, b, c) {
+                    
+                //     let maxValue = Number.NEGATIVE_INFINITY;
+                //     document.write('<p>Number.NEGATIVE_INFINITY = ' + maxValue + '<hr/>');
+    
+
+                //     for ( let i = 0; i < arguments.length; i++)
+                //         if (arguments[i] > maxValue)
+                //         maxValue = arguments[i];
+
+                //     return maxValue;
+                // }
+
+                // let res = max(-33, 33, 777, -666, - 22);
+                // document.write('<p>Максимальное значение одного из аругментов функции = ' + res);
+
+
+            // function f(x, y, z) {
+            //     if( arguments.length !=3) {
+            //         document.write("<p><b style='color:red;'> ERROR:</b><em>Требуется три аргумента при вызове. Функции")
+            //     }
+            //     else {
+            //         document.write("<p><span style='color:green;'> Правильный вызов функции.</span> Аругменты: ");
+            //             for ( let i = 0; i < arguments.length; i++)
+            //             document.write(arguments[i] + ", ");
+            //     }
+            // }        
+
+            // f(1, 2, 3, 4);
+            // f(1, 2, 3);
+            // f(1, 2)
+
+            // for ( let counter = 0; counter < 3; counter++) {
+            //     document.write("<p style='background-color:lightblue;'>" + counter);
+            // }
+            // document.write("<p style='bacground-color:yellow;'>" + counter);
+
+            // function f(counter) {
+            //     counter--;
+            //     document.write("<p style='bacground-color:lightblue;'>Первая половина метода: " + counter);
+
+            //         if (counter != 0)
+            //             f(counter);
+            //     document.write("<p style='background-color:yellow;'>Вторая половина метода: " + counter);
+            // }
+            // f(3);
+
+            // let input = prompt('Введите число: ');
+            // input = parseInt(input);
+
+            // function factorial(x) {
+            //     if (x <= 1)
+            //         return 1;
+                
+            //         return x * factorial(x - 1);
+            // }
+
+            // document.write("Факториал " + input + "! = " + factorial(input));
+
+            // let f = function() {
+            //     document.write('<p>Hello');
+            // };
+ 
+            // f();
+
+            // f = function() {
+            //     document.write('<p>Bye!');
+            // };
+            
+            // f();
+
+        //     function outer() {
+        //         inner();
+                
+        //         function inner() {
+        //             document.write ("<p style='background-color:lightblue;'>Inner function");
+        //         }
+        //         inner();
+        //     }
+        // outer()
+
+        // function hypotenuse(a, b) {
+        //     function pow(x) {
+        //         return x * x;
+        //     };
+        //     return Math.sqrt(pow(a) + pow(b));
+        // }
+        // document.write('Гипотенуза треугольника с катетами 3 и 4 равна: '+ hypotenuse(3, 4));
+
+        // let add =  function (a, b) {
+        //     return a + b;
+        // };
+
+        // let sub = function (a, b) {
+        //     return a - b;
+        // };
+
+        // function show(callBackFunction, a, b){
+        //     let result = callBackFunction(a, b);
+        //     document.write('<p>' + result);
+        // };
+
+        // show( add, 10, 20);
+        // show( sub, 50, 30);
+
+        // let instance = { propertyA: 222, propertyB: 444 };
+
+        // document.write("<p>instance.propertyA = " + instance.propertyA);
+        // document.write("<p>instance.propertyB = " + instance.propertyB);
+
+        //     document.write('<hr/>');
+
+        //     instance.propertyA = 333;
+        //     instance["propertyB"] = 555;
+
+        // document.write("<p>instance.porpertyA = " + instance.propertyA);
+        // document.write("<p>instance.porpertyB = " + instance.propertyB);
+
+        // document.write('<hr/>');
+
+        // document.write("<p>instance = " + instance);
+        
+    //   let point = new Object();
+
+    //   point.x = 10;
+
+    //   point.y = 15;
+
+    //   point.f = function () {
+    //       document.write('<p>x = ' + point.x + '<p>y = ' + point.y);
+
+    //   }
+    //   point.f();  
+
+// let person = {
+//     firstName: 'Jim',
+//     lastName: 'Rainbow',
+//     age: 30,
+//     occupation: 'Web Developer'
+// };
+
+// document.write('<p>' + person.firstName + ' ' + person.lastName);
+
+// person.age = 25;
+// document.write('<p>Age: ' + person.age + ' years old');
+
+// let human = {
+//     firstName: 'Alex',
+//     secondName: 'Jazun',
+//     age: 27,
+//     occupation: {
+//         company: 'Microsoft',
+//         position: 'Web Developer'
+//     }
+// };
+
+// document.write('<p>First name: ' + human.firstName);
+// document.write('<p>Second name: ' + human.secondName);
+// document.write('<p>age: ' + human.age);
+
+// document.write('<p>Company: ' + human.occupation.company);
+// document.write('<p>Position: ' + human.occupation.position);
+
+// let human = new Object();
+
+// humanFirstName = 'Alex';
+// humanSecondName = 'Jazun';
+// human.age = 27;
+
+// human.occupation = new Object();
+
+// human.occupation.comapny = 'Microsoft';
+// human.occupation.position = 'Web Developer';
+
+// document.write('<p>First name: ' + humanFirstName);
+// document.write('<p>Second name: ' + humanSecondName);
+// document.write('<p>Age: ' + human.age + 'years old');
+
+// document.write('<p>Company: ' + human.occupation.comapny);
+// document.write('<p>Ahe: ' + human.occupation.position); 
+
+
+</script>
+
+
+
+</pre>
+
+</body>
+</html>
